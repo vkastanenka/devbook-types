@@ -2,7 +2,7 @@
 import { User } from './user'
 
 /**
- * Fields
+ * Inputs
  */
 
 export type AddressUnitNumber = string | null
@@ -53,7 +53,7 @@ export interface AddressUpdateAddressFormData {
 }
 
 /**
- * Request bodies
+ * Request Bodies
  */
 
 export interface AddressCreateUserAddressReqBody {

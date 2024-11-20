@@ -43,7 +43,7 @@ export interface AuthUpdatePasswordFormData {
 }
 
 /**
- * Request bodies
+ * Request Bodies
  */
 
 export type AuthLoginReqBody = AuthLoginFormData

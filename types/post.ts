@@ -3,7 +3,7 @@ import { User } from './user'
 import { Prisma } from '@vkastanenka/devbook-prisma'
 
 /**
- * Fields
+ * Inputs
  */
 
 export type CommentBody = string
@@ -34,8 +34,6 @@ export interface Comment {
 
 export enum PostType {
   DEFAULT,
-  EVENT,
-  ARTICLE,
 }
 
 export interface Post {
@@ -91,7 +89,7 @@ export interface PostUpdatePostFormData {
 }
 
 /**
- * Request bodies
+ * Request Bodies
  */
 
 // Comment

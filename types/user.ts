@@ -5,7 +5,7 @@ import { Comment, Post, PostLike } from './post'
 import { Prisma } from '@vkastanenka/devbook-prisma'
 
 /**
- * Fields
+ * Inputs
  */
 
 // User
@@ -173,7 +173,7 @@ export interface UserCreateUpdateExperiencesFormData {
 }
 
 /**
- * Request bodies
+ * Request Bodies
  */
 
 // User

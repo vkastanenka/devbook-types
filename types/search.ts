@@ -1,5 +1,5 @@
 /**
- * Fields
+ * Inputs
  */
 
 export type SearchDevbookQuery = string
@@ -13,7 +13,7 @@ export interface SearchDevbookFormData {
 }
 
 /**
- * Request bodies
+ * Request Bodies
  */
 
 export interface SearchDevbookReqBody {
