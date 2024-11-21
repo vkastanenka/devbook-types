@@ -1,6 +1,6 @@
 {
   "name": "@vkastanenka/devbook-types",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "dist/index.js",
   "keywords": [],
@@ -14,7 +14,7 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@vkastanenka/devbook-prisma": "^0.0.1"
+    "@vkastanenka/devbook-prisma": "^0.0.2"
   },
   "devDependencies": {
     "@types/node": "^22.9.1",
